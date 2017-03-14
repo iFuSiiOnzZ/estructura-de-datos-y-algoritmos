@@ -50,12 +50,12 @@ template <typename T> class CQueue
             m_ContainerSize = 0;
         }
 
-        size_t size()
+        inline size_t size()
         {
             return m_Count;
         }
 
-        bool empty()
+        inline bool empty()
         {
             return m_Count == 0;
         }

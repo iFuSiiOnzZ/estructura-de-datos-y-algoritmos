@@ -43,12 +43,12 @@ template <typename T> class CStack
             m_ContainerSize = 0;
         }
 
-        size_t size()
+        inline size_t size()
         {
             return m_PushPosition;
         }
 
-        bool empty()
+        inline bool empty()
         {
             return m_PushPosition == 0;
         }
