@@ -20,6 +20,9 @@
 #include "algorithms\data\binary_search_tree.h"
 #include "tests\binary_search_tree.h"
 
+#include "algorithms\data\ordered_array.h"
+#include "tests\ordered_array.h"
+
  #ifndef UNUSED
     #define UNUSED(x) (void)x
 #endif
@@ -33,6 +36,7 @@ int main(int argc, char *argv[])
     test_queue();
 
     test_binary_tree();
+    test_ordered_array();
 
     test_selection_sort();
     test_insertion_sort();
